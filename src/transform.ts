@@ -19,7 +19,14 @@ export async function transformBrands() {
       yearFounded = minYear;
     }
 
-    const rightDoc = { yearFounded };
+    //fix numberOfLocarions issues
+    let numberOfLocations = doc.numberOfLocations ?? 1;
+    numberOfLocations = Number(numberOfLocations);
+    if (isNaN(numberOfLocations)) {
+      numberOfLocations = 1;
+    }
+
+    const rightDoc = { yearFounded, numberOfLocations };
     await Brand.findByIdAndUpdate(
       doc._id,
       {
