@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 import { Brand } from "./updated-brands-schema";
 
-const currentYear = new Date().getFullYear();
 const minYear = 1600;
 
 export async function transformBrands() {
@@ -13,7 +12,8 @@ export async function transformBrands() {
   for (const doc of raw) {
     console.log(doc);
     // fix yearFounded issues
-    let yearFounded = doc.yearCreated ?? doc.yearsFounded ?? minYear;
+    let yearFounded =
+      doc.yearFounded ?? doc.yearCreated ?? doc.yearsFounded ?? minYear;
     yearFounded = Number(yearFounded);
     if (isNaN(yearFounded)) {
       yearFounded = minYear;
@@ -27,24 +27,25 @@ export async function transformBrands() {
     }
 
     //fix headquarters issues
-    let headquarters = doc.headquarters ?? doc.hqAddress;
-    if (typeof headquarters !== "string") {
-      headquarters = "";
-    }
+    let headquarters = doc.headquarters ?? "defaultLocation";
 
-    const rightDoc = { yearFounded, numberOfLocations, headquarters };
+    //fix brandName
+    let brandName = doc.brandName ?? doc.brand.name ?? "defaultBrandName";
+
+    const rightDoc = {
+      yearFounded,
+      numberOfLocations,
+      headquarters,
+      brandName,
+    };
     await Brand.findByIdAndUpdate(
       doc._id,
       {
         $set: rightDoc,
-        $unset: { yearsFounded: "", yearCreated: "", hqAddress: "" },
+        $unset: { yearsFounded: "", yearCreated: "", hqAddress: "", brand: "" },
       },
-      // $unset doesnt work when strict is true
-      { strict: false },
+      // $unset doesnt work or update database when strict is true
+      { runValidators: true, strict: false },
     );
-
-    console.log("===============");
-    console.log(`Transformed: ${doc._id}`);
-    console.log(doc);
   }
 }
