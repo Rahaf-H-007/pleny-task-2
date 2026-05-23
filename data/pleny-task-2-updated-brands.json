@@ -1,0 +1,280 @@
+[{
+  "_id": {
+    "$oid": "66069ff93007b006635c0245"
+  },
+  "brandName": "Ward, Hand and Ortiz",
+  "headquarters": "Jastside",
+  "numberOfLocations": 2132,
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:58.661Z"
+  },
+  "yearFounded": 1970
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c0246"
+  },
+  "brandName": "Ergonomic Frozen Bacon",
+  "yearFounded": 1600,
+  "headquarters": "Gavinstead",
+  "numberOfLocations": 1,
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:58.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c0247"
+  },
+  "brandName": "Breitenberg, Greenholt and Ledner",
+  "yearFounded": 1982,
+  "headquarters": "Fort Lenna",
+  "numberOfLocations": 1000,
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:58.903Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c0248"
+  },
+  "brandName": "Modern Granite Fish",
+  "yearFounded": 1970,
+  "headquarters": "Kundebury",
+  "numberOfLocations": 1,
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.014Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c0249"
+  },
+  "brandName": "Gorgeous Granite Pizza",
+  "headquarters": "Jonesborough",
+  "numberOfLocations": 1,
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.113Z"
+  },
+  "yearFounded": 1980
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024a"
+  },
+  "brandName": "Oriental Plastic Pants",
+  "yearFounded": 1970,
+  "headquarters": "Wardfort",
+  "numberOfLocations": 1,
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.211Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024b"
+  },
+  "brandName": "Refined Granite Towels",
+  "yearFounded": 1600,
+  "headquarters": "Lemkeland",
+  "numberOfLocations": 1,
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.307Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024c"
+  },
+  "brandName": "Corkery Inc",
+  "yearFounded": 1935,
+  "numberOfLocations": 9200,
+  "headquarters": "defaultLocation",
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.405Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024d"
+  },
+  "yearFounded": 1600,
+  "headquarters": "West Mylesboro",
+  "numberOfLocations": 1,
+  "brandName": "Licensed Concrete Tuna",
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.502Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024e"
+  },
+  "brandName": "Generic Cotton Pizza",
+  "yearFounded": 1600,
+  "headquarters": "North Ralphport",
+  "numberOfLocations": 1,
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.599Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a1196fb2704e5ee467c1d08"
+  },
+  "brandName": "Grimes - Corwin",
+  "yearFounded": 1600,
+  "headquarters": "Urbandale",
+  "numberOfLocations": 50,
+  "createdAt": {
+    "$date": "2026-05-23T12:00:59.709Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1196fb2704e5ee467c1d09"
+  },
+  "brandName": "Swift Inc",
+  "yearFounded": 1995,
+  "headquarters": "Boehmland",
+  "numberOfLocations": 5000,
+  "createdAt": {
+    "$date": "2026-05-23T12:00:59.807Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1196fb2704e5ee467c1d0a"
+  },
+  "brandName": "Jacobi, Mitchell and Terry",
+  "yearFounded": 2015,
+  "headquarters": "Rolandborough",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2026-05-23T12:00:59.903Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.903Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1196fb2704e5ee467c1d0b"
+  },
+  "brandName": "O'Kon and Sons",
+  "yearFounded": 2026,
+  "headquarters": "Otisfield",
+  "numberOfLocations": 3,
+  "createdAt": {
+    "$date": "2026-05-23T12:00:59.996Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:00:59.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1196fc2704e5ee467c1d0c"
+  },
+  "brandName": "Renner, Reichert and Tremblay",
+  "yearFounded": 1620,
+  "headquarters": "Lake Colleen",
+  "numberOfLocations": 200,
+  "createdAt": {
+    "$date": "2026-05-23T12:01:00.089Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:01:00.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1196fc2704e5ee467c1d0d"
+  },
+  "brandName": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+  "yearFounded": 2001,
+  "headquarters": "Roxaneland",
+  "numberOfLocations": 40,
+  "createdAt": {
+    "$date": "2026-05-23T12:01:00.183Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:01:00.183Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1196fc2704e5ee467c1d0e"
+  },
+  "brandName": "lorem & impsum's restaurant",
+  "yearFounded": 1988,
+  "headquarters": "North Paulstad",
+  "numberOfLocations": 150,
+  "createdAt": {
+    "$date": "2026-05-23T12:01:00.276Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:01:00.276Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1196fc2704e5ee467c1d0f"
+  },
+  "brandName": "Adams Group",
+  "yearFounded": 1970,
+  "headquarters": "New York, USA",
+  "numberOfLocations": 99999,
+  "createdAt": {
+    "$date": "2026-05-23T12:01:00.369Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:01:00.369Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1196fc2704e5ee467c1d10"
+  },
+  "brandName": "Kshlerin - O'Keefe",
+  "yearFounded": 1999,
+  "headquarters": "São Paulo, Brazil",
+  "numberOfLocations": 120,
+  "createdAt": {
+    "$date": "2026-05-23T12:01:00.466Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:01:00.466Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1196fc2704e5ee467c1d11"
+  },
+  "brandName": "54x restaurant",
+  "yearFounded": 2010,
+  "headquarters": "Tulsa",
+  "numberOfLocations": 85,
+  "createdAt": {
+    "$date": "2026-05-23T12:01:00.561Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-23T12:01:00.561Z"
+  },
+  "__v": 0
+}]
