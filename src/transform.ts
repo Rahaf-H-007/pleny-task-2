@@ -26,12 +26,18 @@ export async function transformBrands() {
       numberOfLocations = 1;
     }
 
-    const rightDoc = { yearFounded, numberOfLocations };
+    //fix headquarters issues
+    let headquarters = doc.headquarters ?? doc.hqAddress;
+    if (typeof headquarters !== "string") {
+      headquarters = "";
+    }
+
+    const rightDoc = { yearFounded, numberOfLocations, headquarters };
     await Brand.findByIdAndUpdate(
       doc._id,
       {
         $set: rightDoc,
-        $unset: { yearsFounded: "", yearCreated: "" },
+        $unset: { yearsFounded: "", yearCreated: "", hqAddress: "" },
       },
       // $unset doesnt work when strict is true
       { strict: false },
