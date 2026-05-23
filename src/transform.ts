@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { Brand } from "./updated-brands-schema";
+import Brand from "./brands-schema";
 
 const minYear = 1600;
 
